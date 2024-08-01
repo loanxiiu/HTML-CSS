@@ -1,0 +1,10 @@
+:root {
+    --text-color:green;
+}
+h1 {
+    --my-color:violet;
+    color: var(--text-color)
+}
+ol {
+    color: var(--my-color);
+}

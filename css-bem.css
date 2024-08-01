@@ -1,0 +1,9 @@
+.card {
+    background-color: pink;
+}
+.card--success .card__btn {
+    /* màu xanh */
+}
+.card--error .card__btn {
+    /* màu đỏ */
+}

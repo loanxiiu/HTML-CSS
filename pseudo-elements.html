@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loan xinh</title>
+        <meta charset="utf-8">
+        <style>
+            .htlm,body {
+                margin:0;
+            }
+            .box {
+                width: 100%;
+                height: 120px;
+                background: rgb(190,120,157);
+            }
+            .box::before {
+                content:"";
+                display: block;
+                width: 50px;
+                height:50px;
+                background-color: white;
+            }
+            .box::after {
+                content:"xinh";
+                color:blue;
+                display:block;
+                width: 50px;
+                height: 50px;
+                background-color: white;
+            }
+            h1::first-letter {
+                font-size: 50px;
+            }
+            h1::first-line {
+                color: purple;
+            }
+            h1::selection {
+                background-color: pink;
+                color: yellowgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+        <h1>CSS pseudo-elements<br/>dòng 2</h1>
+        <ul>
+            <li>::before</li>
+            <li>::after</li>
+            <li>::first-letter</li>
+            <li>::first-line</li>
+            <li>::selection</li>
+        </ul>
+    </body>
+</html>
